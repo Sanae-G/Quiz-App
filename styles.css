@@ -155,3 +155,28 @@ footer {
 .last-card {
   margin-bottom: 15vh;
 }
+
+/* ===== card creation ===== */
+
+.textarea_question,
+.textarea_answer {
+  font-size: 1.2em;
+  resize: none;
+  width: 100%;
+}
+
+.textarea_answer {
+  margin-bottom: 2.5em;
+}
+
+.submit-btn {
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 12em;
+  height: 4em;
+  border: 5px dotted rgb(11, 108, 130);
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
