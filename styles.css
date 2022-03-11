@@ -159,24 +159,34 @@ footer {
 /* ===== card creation ===== */
 
 .textarea_question,
-.textarea_answer {
+.textarea_answer,
+.textarea_tags {
   font-size: 1.2em;
   resize: none;
   width: 100%;
 }
 
-.textarea_answer {
+.textarea_tags {
   margin-bottom: 2.5em;
 }
 
 .submit-btn {
   font-size: 1.2em;
   font-weight: bold;
-  width: 12em;
-  height: 4em;
+  width: 12rem;
+  height: 4rem;
   border: 5px dotted rgb(11, 108, 130);
   border-radius: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.h2-tags {
+  margin-bottom: 0;
+}
+
+.paragraph-tags {
+  margin-bottom: 0;
+  margin-top: 0;
 }
