@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Pangolin", cursive;
+}
+
+header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  height: 12.5vh;
+  background-color: pink;
+}
+
+header p {
+  margin-top: 0;
+  text-align: center;
+}
+
+.html-logo {
+  height: 2rem;
+  width: auto;
+}
+
+.css-logo {
+  height: 2rem;
+  width: auto;
+}
+
+h1 {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 0;
+  text-align: center;
+  background-color: pink;
+  padding-top: 0.5em;
+  padding-bottom: 0;
+  margin-bottom: 0.1em;
+}
+
+/* ===== footer ===== */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  border-top-left-radius: 3em;
+  border-top-right-radius: 3em;
+  width: 100vw;
+  height: 9vh;
+  background-color: lightgrey;
+}
+
+.menu {
+  padding-left: 0;
+  padding-top: 0.2em;
+  display: flex;
+  flex-direction: row;
+  margin: 0.2em;
+}
+
+.menu-item {
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+}
+
+.nav-icon {
+  width: 4rem;
+  height: auto;
+}
+
+/* ===== cards ===== */
+
+.card {
+  border: 2px solid black;
+  position: relative;
+  margin: 1.5rem;
+  border-radius: 1em;
+  padding: 23px;
+}
+
+.bookmarking {
+  position: absolute;
+  top: -30px;
+  right: 10px;
+  filter: grayscale(100%);
+  width: 4rem;
+  height: auto;
+}
+
+.showanswer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  width: 12em;
+  height: 4em;
+  border: 5px dotted black;
+  border-radius: 10px;
+}
+
+.showanswer a {
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.hashtags {
+  margin-top: 2em;
+}
+
+.hashtags-list {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tag {
+  list-style: none;
+}
+
+.card {
+  margin-bottom: 10vh;
+  margin-top: 5vh;
+}
+
+.first-card {
+  margin-top: 17vh;
+}
+
+.last-card {
+  margin-bottom: 15vh;
+}
