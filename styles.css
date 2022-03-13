@@ -204,10 +204,12 @@ footer {
 }
 
 .photo-box{
+  background-image: url("assets/dog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  background-color: red;
 }
 
 .name-box h2{
