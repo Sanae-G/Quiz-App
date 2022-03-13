@@ -173,8 +173,8 @@ footer {
 .submit-btn {
   font-size: 1.2em;
   font-weight: bold;
-  width: 12rem;
-  height: 4rem;
+  width: 10em;
+  height: 3em;
   border: 5px dotted rgb(11, 108, 130);
   border-radius: 10px;
   display: block;
