@@ -192,6 +192,7 @@ footer {
 
 .profile{
   margin: 1.5rem;
+  margin-top: 3rem;
 }
 
 .profile-photo-name{
@@ -213,7 +214,7 @@ footer {
   text-align: center;
 }
 
-.self-introduction{
+.self-introduction {
   margin-top: 2.5rem;
 }
 
@@ -231,4 +232,17 @@ footer {
   padding: 12px;
   border-radius: 5px;
   list-style: none;
+}
+
+.btn-logOut{
+    background-color: rgb(125, 205, 206);
+    display: block;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    width: 12em;
+    height: 4em;
+    border: 5px dotted rgb(11, 108, 130);
+    border-radius: 10px;
 }
