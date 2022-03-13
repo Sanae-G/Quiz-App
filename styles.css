@@ -193,10 +193,22 @@ footer {
 
 /* ===== Profile ===== */
 
-.profile{
+.profile-photo-name{
   margin: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+  gap: 25px;
 }
 
-.photo-name-columns{
-  display: inline-block;
+.photo-box{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+
+.name-box h2{
+  text-align: center;
 }
