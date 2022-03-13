@@ -7,6 +7,8 @@ body {
   font-family: "Pangolin", cursive;
 }
 
+/* ===== Header ===== */
+
 header {
   border-bottom: 2px solid red;
   position: sticky;
@@ -148,7 +150,6 @@ footer {
   margin-top: 5vh;
 }
 
-
 .last-card {
   margin-bottom: 15vh;
 }
@@ -190,12 +191,12 @@ footer {
 
 /* ===== Profile ===== */
 
-.profile{
+.profile {
   margin: 1.5rem;
   margin-top: 3rem;
 }
 
-.profile-photo-name{
+.profile-photo-name {
   display: flex;
   justify-content: center;
   align-content: space-around;
@@ -203,7 +204,7 @@ footer {
   gap: 25px;
 }
 
-.photo-box{
+.photo-box {
   background-image: url("assets/dog.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -212,7 +213,7 @@ footer {
   height: 150px;
 }
 
-.name-box h2{
+.name-box h2 {
   text-align: center;
 }
 
@@ -220,7 +221,7 @@ footer {
   margin-top: 2.5rem;
 }
 
-.self-introduction h3{
+.self-introduction h3 {
   margin-top: 2rem;
 }
 
@@ -240,15 +241,80 @@ footer {
   list-style: none;
 }
 
-.btn-logOut{
-    background-color: rgb(125, 205, 206);
-    display: block;
-    margin-top: 3rem;
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration: none;
-    width: 12em;
-    height: 4em;
-    border: 5px dotted rgb(11, 108, 130);
-    border-radius: 10px;
+.btn-logOut {
+  background-color: rgb(125, 205, 206);
+  display: block;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  width: 12em;
+  height: 4em;
+  border: 5px dotted rgb(11, 108, 130);
+  border-radius: 10px;
+}
+
+
+/* ===== Breakpoints ===== */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+  .card{
+    margin: 4rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .card{
+    margin: 5rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .card{
+    margin: 10rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+  .card{
+    border-radius: 30px;
+    margin-left: 17rem;
+    margin-right: 17rem;
+    margin-top: 2rem;
+  }
+}
+
+.card h2{
+  font-size: 2rem;
+}
+
+.text_question, .text_answer, .tag{
+  font-size: 1.5rem;
+}
+
+.active-bookmarking, .bookmarking {
+  position: absolute;
+  top: -45px;
+  right: 10px;
+  width: 6rem;
+  height: auto;
+}
+
+.showanswer{
+  width: 15em;
+  height: 6em;
+}
+
+.showanswer a{
+  font-size: 1.5rem;
+}
+
+.profile{
+  border: 4px solid black;
+  border-radius: 30px;
 }
