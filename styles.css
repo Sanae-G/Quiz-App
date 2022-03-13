@@ -193,8 +193,11 @@ footer {
 
 /* ===== Profile ===== */
 
-.profile-photo-name{
+.profile{
   margin: 1.5rem;
+}
+
+.profile-photo-name{
   display: flex;
   justify-content: center;
   align-content: space-around;
@@ -211,4 +214,24 @@ footer {
 
 .name-box h2{
   text-align: center;
+}
+
+.self-introduction{
+  margin-top: 2.5rem;
+}
+
+.skills-list {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background-color: rgba(50, 205, 50, 0.338);
+  border: 2px solid rgb(44, 159, 73);
+  padding: 12px;
+  border-radius: 5px;
+  list-style: none;
 }
