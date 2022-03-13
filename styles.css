@@ -218,6 +218,10 @@ footer {
   margin-top: 2.5rem;
 }
 
+.self-introduction h3{
+  margin-top: 2rem;
+}
+
 .skills-list {
   padding-left: 0;
   display: flex;
@@ -237,7 +241,7 @@ footer {
 .btn-logOut{
     background-color: rgb(125, 205, 206);
     display: block;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
