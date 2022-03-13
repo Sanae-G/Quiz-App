@@ -78,6 +78,12 @@ footer {
   height: auto;
 }
 
+
+.active{
+    background-color: hsl(60, 100%, 50%, 0.5);
+    border-radius: 50%;
+}
+
 /* ===== cards ===== */
 
 .card {
