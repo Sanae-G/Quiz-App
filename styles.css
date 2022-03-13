@@ -9,7 +9,7 @@ body {
 
 header {
   border-bottom: 2px solid red;
-  position: fixed;
+  position: sticky;
   z-index: 10;
   top: 0;
   width: 100%;
@@ -189,4 +189,14 @@ footer {
 .paragraph-tags {
   margin-bottom: 0;
   margin-top: 0;
+}
+
+/* ===== Profile ===== */
+
+.profile{
+  margin: 1.5rem;
+}
+
+.photo-name-columns{
+  display: inline-block;
 }
