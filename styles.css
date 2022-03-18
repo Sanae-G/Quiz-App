@@ -128,7 +128,7 @@ footer {
   border-radius: 10px;
 }
 
-.showanswer a {
+.showanswer {
   font-weight: bold;
   color: rgba(42, 44, 31, 0.975);
   font-size: 1.2em;

@@ -28,6 +28,8 @@
       rel="stylesheet"
     />
 
+    <script src="quiz-cards.js" defer></script>
+
     <title>Quiz-App</title>
   </head>
 
@@ -70,9 +72,20 @@
             </a>
           </div>
 
-          <button class="showanswer">
-            <a href="#"> Show Answer </a>
+          <button
+            id="btn-answer_1"
+            onclick="toggle_visibility('answer_1', 'btn-answer_1')"
+            class="showanswer"
+          >
+            Show Answer
           </button>
+
+          <p id="answer_1" class="text_answer">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            rerum quibusdam obcaecati sequi id. Ab ipsum deserunt nisi
+            repudiandae voluptates officiis quos, nemo soluta quod corrupti
+            laudantium eligendi exercitationem dolore.
+          </p>
 
           <div class="hashtags">
             <ul class="hashtags-list">
@@ -107,9 +120,20 @@
             </a>
           </div>
 
-          <button class="showanswer">
-            <a href="#"> Show Answer </a>
+          <button
+            onclick="toggle_visibility('answer_2', 'btn-answer_2')"
+            class="showanswer"
+            id="btn-answer_2"
+          >
+            Show Answer
           </button>
+
+          <p id="answer_2" class="text_answer">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            voluptatum similique autem maiores sed adipisci dolorem incidunt ex
+            id magnam doloremque, maxime consectetur, mollitia a quas temporibus
+            blanditiis itaque explicabo.
+          </p>
 
           <div class="hashtags">
             <ul class="hashtags-list">
@@ -144,11 +168,15 @@
             </a>
           </div>
 
-          <button class="showanswer">
-            <a href="#"> Hide Answer </a>
+          <button
+            onclick="toggle_visibility('answer_3', 'btn-answer_3')"
+            class="showanswer"
+            id="btn-answer_3"
+          >
+            Hide Answer
           </button>
 
-          <p class="text_answer">
+          <p id="answer_3" class="text_answer">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
             voluptatum similique autem maiores sed adipisci dolorem incidunt ex
             id magnam doloremque, maxime consectetur, mollitia a quas temporibus
