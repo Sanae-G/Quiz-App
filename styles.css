@@ -196,6 +196,14 @@ footer {
   margin-top: 0;
 }
 
+.charCounter {
+  margin-left: 34em;
+}
+
+.quiz-cards label {
+  font-size: 1.5rem;
+}
+
 /* ===== Profile ===== */
 
 .profile {

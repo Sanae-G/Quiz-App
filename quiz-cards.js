@@ -1,4 +1,4 @@
-// toggle visibility of card answer
+/* ===== toggle visibility of card answer ====== */
 
 const toggleCardAnswer = document.querySelectorAll('.showanswer');
 
@@ -69,3 +69,30 @@ for (let i = 0; i < numberOfCards; i++) {
     })
 }
 */
+
+/* ============== card creation ========= */
+
+/* ==== single textarea ===== */
+
+/*
+const inputText = document.getElementById('text_question');
+
+inputText.addEventListener('input', () => {
+    let characterCount = inputText.value.length;
+    let current = document.getElementById('current');
+    current.textContent = 'Number of letters: ' + characterCount;
+  });
+*/
+
+/* ===== all textareas ====== */
+
+/* Aufgabe: aktuellen Stand Anzeigen lassen */
+
+const inputText = document.querySelectorAll('.newCard-inputText');
+
+inputText.forEach(inputText => {
+  inputText.addEventListener('input', () => {
+    let characterCount = inputText.value.length;
+    inputText.nextElementSibling.textContent = 'Characters: ' + characterCount;
+  });
+});

@@ -17,6 +17,9 @@
       href="https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:wght@500&display=swap"
       rel="stylesheet"
     />
+
+    <script src="quiz-cards.js" defer></script>
+
     <title>Quiz App</title>
   </head>
   <body>
@@ -29,37 +32,46 @@
       <section class="quiz-cards">
         <div class="card first-card">
           <form action="">
-            <h2>Add question!</h2>
+            <label for="text_question">Add question!</label>
             <textarea
-              class="textarea_question"
+              class="newCard-inputText textarea_question"
               name="text_question"
               id="text_question"
               cols="70"
               rows="7"
             ></textarea>
+
+            <p class="charCounter">Characters: 0</p>
+
             <a href="#"
               ><img
                 class="bookmarking"
                 src="assets/bookmark_Bookmark_102331.png"
                 alt="bookmark"
             /></a>
-            <h2>Add answer!</h2>
+            <label for="text_answer">Add answer!</label>
             <textarea
-              class="textarea_answer"
+              class="newCard-inputText textarea_answer"
               name="text_answer"
               id="text_answer"
               cols="70"
               rows="7"
             ></textarea>
-            <h2 class="h2-tags">Add tags!</h2>
+
+            <p class="charCounter">Characters: 0</p>
+
+            <label for="text_tags">Add tags!</label>
             <p class="paragraph-tags">Separate tags by comma</p>
             <textarea
-              class="textarea_tags"
+              class="newCard-inputText textarea_tags"
               name="text_answer"
-              id="text_answer"
+              id="text_tags"
               cols="70"
               rows="2"
             ></textarea>
+
+            <p class="charCounter">Characters: 0</p>
+
             <input class="submit-btn" type="submit" value="Submit" />
           </form>
         </div>
