@@ -121,18 +121,18 @@ footer {
   margin-bottom: 3rem;
   margin-left: auto;
   margin-right: auto;
-  text-decoration: none;
   width: 12em;
   height: 4em;
   border: 5px dotted rgb(11, 108, 130);
   border-radius: 10px;
-}
-
-.showanswer {
   font-weight: bold;
   color: rgba(42, 44, 31, 0.975);
   font-size: 1.2em;
   text-decoration: none;
+}
+
+.text_answer {
+  display: none;
 }
 
 .hashtags {
@@ -384,9 +384,6 @@ footer {
   .showanswer {
     width: 15em;
     height: 6em;
-  }
-
-  .showanswer a {
     font-size: 1.5rem;
   }
 
