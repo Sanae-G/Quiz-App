@@ -96,3 +96,5 @@ inputText.forEach(inputText => {
     inputText.nextElementSibling.textContent = 'Characters: ' + characterCount;
   });
 });
+
+/* ===== single page ===== */
