@@ -98,3 +98,26 @@ inputText.forEach(inputText => {
 });
 
 /* ===== single page ===== */
+
+const contents = document.querySelectorAll('.content');
+const menuItems = document.querySelectorAll('.menu-item');
+
+menuItems.forEach((item, index) => {
+  item.addEventListener('click', () => {
+    hideAllContents();
+    hideAllActiveMenuItems();
+
+    item.classList.add('active');
+    contents[index].classList.add('show');
+  });
+});
+
+function hideAllContents() {
+  contents.forEach(content => content.classList.remove('show'));
+}
+
+function hideAllActiveMenuItems() {
+  menuItems.forEach(menuItem => {
+    menuItem.classList.remove('active');
+  });
+}

@@ -7,6 +7,16 @@ body {
   font-family: 'Pangolin', cursive;
 }
 
+/* ===== singlePage ===== */
+
+.content {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 /* ===== Header ===== */
 
 header {
