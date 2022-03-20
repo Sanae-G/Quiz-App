@@ -118,6 +118,7 @@ function hideAllContents() {
 
 function hideAllActiveMenuItems() {
   menuItems.forEach(menuItem => {
+    /* function(menuItem) auch möglich aber VSC schlägt arrow function vor */
     menuItem.classList.remove('active');
   });
 }
