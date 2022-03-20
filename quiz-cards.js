@@ -1,10 +1,18 @@
 /* ===== toggle visibility of card answer ====== */
 
 const toggleCardAnswer = document.querySelectorAll('.showanswer');
+let answerRevealed = false;
 
 toggleCardAnswer.forEach(btn => {
   btn.addEventListener('click', () => {
     btn.nextElementSibling.classList.toggle('text_answer');
+    if (answerRevealed) {
+      answerRevealed = false;
+      btn.textContent = 'Show Answer';
+    } else {
+      answerRevealed = true;
+      btn.textContent = 'Hide Answer';
+    }
   });
 });
 
